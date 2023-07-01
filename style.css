@@ -34,9 +34,15 @@ body {
 }
 
 .container ul li {
+  font-family: "poppins";
   margin: 14px;
   list-style-type: none;
   margin-top: 20px;
   font-size: 16px;
-  color: aliceblue;
+  color: rgb(220, 220, 220);
+}
+
+li:hover {
+  transform: translateY(-2.5px);
+  text-decoration: underline;
 }

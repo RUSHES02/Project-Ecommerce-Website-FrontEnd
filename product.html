@@ -26,373 +26,325 @@
     <header>
       <div class="navbar">
         <div class="logo">
-          <img src="Resources/Logo&Banners/logo.svg" alt="LOGO" />
+          <img src="Resources/Logo&Banners/AbeBooks_logo.jpg.png" alt="LOGO" />
         </div>
         <div class="container">
           <ul>
+            <li><input type="text" class="search_box" placeholder="Search Books...."><i class="fa-solid fa-magnifying-glass search_icon" style="color: #ffffff;"></i></li>
             <li><a href="index.html">HOME</a></li>
             <li><a href="product.html">PRODUCTS</a></li>
             <li><a href="about.html">ABOUT</a></li>
-            <li><a href="">SIGN-IN</a></li>
             <li><i class="fa-solid fa-cart-shopping"></i></li>
           </ul>
         </div>
       </div>
     </header>
 
+    <div class="main-content">
+      <aside class="sidebar">
+        <h2>Filters</h2>
+        <section class="filter-section">
+            <h3>Category</h3>
+            <ul>
+                <li><input type="checkbox" id="category1"><label for="category1">Category 1</label></li>
+                <li><input type="checkbox" id="category2"><label for="category2">Category 2</label></li>
+                <li><input type="checkbox" id="category3"><label for="category3">Category 3</label></li>
+            </ul>
+        </section>
+        <section class="filter-section">
+            <h3>Price Range</h3>
+            <input type="range" id="priceRange" min="0" max="100">
+            <p>Price: <span id="priceValue">₹0</span></p>
+        </section>
+        <button class="apply-btn">Apply Filters</button>
+      </aside>
+    
       <!-- Featured Product -->
+        <div class="main-body">
+          <h2 class="title">ALL Products</h2>
+          <div class="row">
+              <div class="col-2">
+                <img src="Resources/Best Selling/book1.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-    <h2 class="title">ALL Products</h2>
-      <div class="row">
-        <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book2.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book3.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book4.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book5.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book4.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book3.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book2.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book1.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book2.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book3.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book4.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book5.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book4.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book3.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book2.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book1.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book2.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book3.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div>
 
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
+              <div class="col-2">
+                <img src="Resources/Best Selling/book4.jpg" />
+                <h4>Books</h4>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <p>₹80.00</p>
+                <button>Buy Now</button>
+              </div> 
             </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="col-2">
-            <img src="Resources/Latest Product/01.jpg" />
-            <h4>Birthday Invitation</h4>
-            <div class="star">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-regular fa-star"></i>
-            </div>
-            <p>$80.00</p>
-            <button>Buy Now</button>
-          </div>
+        </div>
+      </div>
 
     <!-------- Footer ----------->
 
@@ -408,10 +360,10 @@
             </div>
           </div>
           <div class="footer-col-2">
-            <img src="Resources/Logo&Banners/logo.svg" />
+            <img src="Resources/Logo&Banners/AbeBookslogo.jpg" />
             <p>
                 Greeting Island is basically a web based E-commerce Website built
-                by Dev. Mayukh Ghosh.
+                by Dev. Abhijaan.
             </p>
           </div>
           <div class="footer-col-3">
@@ -435,7 +387,7 @@
         </div>
         <hr />
         <p class="copyright">
-          <i class="fa-regular fa-copyright"></i> Copyright 2023 - Mack69
+          <i class="fa-regular fa-copyright"></i> Copyright 2023 - Abhijaan
         </p>
       </div>
     </div>
